@@ -1,0 +1,27 @@
+{
+  "name": "landingpage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rimraf .next && next dev -p 3202",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "antd": "^4.14.1",
+    "axios": "^0.21.1",
+    "next": "^10.0.8",
+    "react-awesome-slider": "^4.1.0",
+    "react-responsive-carousel": "^3.2.15",
+    "react-slick": "^0.28.1",
+    "sass": "^1.32.8",
+    "slick-carousel": "^1.8.1"
+  },
+  "resolutions": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}

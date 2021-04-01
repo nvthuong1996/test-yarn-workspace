@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": ["landingpage/**","webapp/**"]
+  },
+  "scripts": {
+    "dev:landingpage": "yarn workspace a run dev",
+    "build:landingpage": "yarn workspace landingpage run build",
+    "clean": "rimraf **/node_modules && yarn"
+  },
+  "devDependencies": {}
+}
